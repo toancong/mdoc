@@ -2,6 +2,12 @@
 
 Wrapper for documo https://docs.documo.com/
 
+## Install
+
+```
+composer require toancong/mdoc
+```
+
 ## Usage
 
 ```php
@@ -56,3 +62,7 @@ $response = $client->other->getClient()->requestWithAuth('post', '/v1/faxes', [
     ]
 ]);
 ```
+
+## License
+
+MIT
